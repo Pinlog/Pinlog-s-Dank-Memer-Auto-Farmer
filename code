@@ -1,0 +1,19 @@
+print (" ████   ███  █   █ █  █    █   █ █████ █   █ █████ ████    ████   ███  █████ ")
+print (" █   █ █   █ ██  █ █ █     ██ ██ █     ██ ██ █     █   █   █   █ █   █   █   ")
+print (" █   █ █████ █ █ █ ██ █    █ █ █ ████  █ █ █ ████  ████    ████  █   █   █   ")
+print (" █   █ █   █ █  ██ █  █    █   █ █     █   █ █     █   █   █   █ █   █   █   ")
+print (" ████  █   █ █   █ █   █   █   █ █████ █   █ █████ █   █   ████   ███    █   ")
+print (" ")
+
+import time
+import pyautogui
+pyautogui.FAILSAFE = True
+
+JoeSpam = int(input("How much JoeSpam? "))
+for i in range(JoeSpam):
+    time.sleep(42)
+    print ("Writing in 3 seconds")
+    print (" ")
+    time.sleep(3)
+    pyautogui.write('pls beg')
+    pyautogui.press('enter')
